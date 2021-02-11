@@ -1,1 +1,1 @@
-web: gunicorn src:create_app() --log-file -
+web: "gunicorn src:create_app()" --log-file -
