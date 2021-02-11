@@ -1,11 +1,9 @@
-import dataclasses
-
 import requests
 
 
-@dataclasses.dataclass
 class RandomCatApi:
-    url = "https://aws.random.cat/meow"
+    def __init__(self):
+        self.url = "https://aws.random.cat/meow"
 
     def get_cat_img(self):
         response = requests.get(self.url)

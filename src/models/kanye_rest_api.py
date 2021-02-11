@@ -1,11 +1,9 @@
-import dataclasses
-
 import requests
 
 
-@dataclasses.dataclass
 class KanyeRestApi:
-    url = "https://api.kanye.rest"
+    def __init__(self):
+        self.url = "https://api.kanye.rest"
 
     def get_kanye_quote(self):
         response = requests.get(self.url)
