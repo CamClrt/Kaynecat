@@ -1,0 +1,44 @@
+/* General style */
+
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#f4f4f7;
+}
+
+#header_img
+{
+    box-shadow:6px 6px 6px #2d5d6f;
+    max-width: 100%; 
+    height: auto;
+}
+
+#header_title
+{
+    color: #2d5d6f;
+    text-align: center;
+}
+
+body
+{
+    color: #05222a;
+    text-align: center;
+}
+
+#body_img
+{
+    width: 25%;
+    height: 25%;
+    border-radius: 5%;
+    opacity: 85%;
+}
+
+em
+{
+    font-style: italic;
+}
+
+footer
+{
+    color: grey ;
+}

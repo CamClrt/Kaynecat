@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>KanyeCat</title>
+</head>
+
+<body>
+
+    <header>
+        <h4>😸 At every refresh, a fresh Kanye West quote & a cute cat picture 😻</h4>
+        <img id="header_img" src="/static/NyaCat.jpg" alt="Cat picture" />
+        <div id="header_title">
+            <h1>KanyeCat</h1>
+            <h2>Kanye Rest X Random Cat</h2>
+        </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <p>🌈 Because we deserve a better world! 🌈</p>
+        <p>-Made with 💙-</p>
+    </footer>
+
+
+</body>
+
+</html>
