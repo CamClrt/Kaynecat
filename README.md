@@ -7,7 +7,7 @@ This is a fun personal project using 2 public API
 
 * Python 3
 * Flask
-* kayne.rest API: [kanye.rest](https://kanye.rest/)
+* kanye.rest API: [kanye.rest](https://kanye.rest/)
 * random.cat API: [random.cat](http://random.cat)
 * Love 💙
 
