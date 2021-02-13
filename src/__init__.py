@@ -1,19 +1,14 @@
 import os
 
-from dotenv import load_dotenv
 from flask import Flask, render_template
 
 from src.models.kanye_rest_api import KanyeRestApi
 from src.models.random_cat_api import RandomCatApi
 
 
-# Init dotenv
-load_dotenv()
-
-
 def create_app():
     # create and configure the app
-    app = Flask(__name__, instance_relative_config=True)
+    app = Flask(__name__)
     app.config.from_mapping(SECRET_KEY=os.environ.get("SECRET_KEY") or "dev")
 
     # a simple index page
