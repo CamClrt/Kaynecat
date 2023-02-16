@@ -14,4 +14,4 @@ pycodestyle==2.6.0
 pyflakes==2.2.0
 requests==2.25.1
 urllib3==1.26.5
-Werkzeug==1.0.1
+Werkzeug==2.2.3
